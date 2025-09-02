@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Football.Tournament.Domain.Entities;
 
-public class Takim
+public class Team
 {
-    public string TakimAdi { get; set; }
-    public string UlkeAdi { get; set; }
-    public List <Oyuncu> Oyuncular { get; set; }
+    public string TeamName { get; set; }
+    public string CountryName { get; set; }
+    public List <Player> Players { get; set; }
 }

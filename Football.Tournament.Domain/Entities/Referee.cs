@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Football.Tournament.Domain.Entities;
 
-public class Hakem
+public class Referee
 {
-    public string Adi { get; set; }
-    public string Soyadi { get; set; }
+    public string Name { get; set; }
+    public string Surname { get; set; }
 }

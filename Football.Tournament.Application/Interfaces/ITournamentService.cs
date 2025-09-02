@@ -9,9 +9,9 @@ namespace Football.Tournament.Application.Interfaces;
 
 public interface ITournamentService
 {
-    void CreateTeams(int takimSayisi);
+    void CreateTeams(int numberOfOeams);
 
-    List <Mac> FikstureOlustur();
+    List <Match> makeFixture();
 
-    void MacOyna(Mac mac);
+    void playMatch(Match match);
 }
